@@ -1,0 +1,289 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d3047">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00 : 00"
+        android:textSize="25sp"
+        android:textColor="#d0d0d0"
+        android:layout_above="@id/main_linear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"/>
+
+    <LinearLayout
+        android:id="@+id/main_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rowbg"
+                android:layout_marginHorizontal="10dp"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+            </LinearLayout>
+
+        <EditText
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:background="@drawable/et_back_color"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rowbg"
+                android:layout_marginHorizontal="10dp"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:background="@drawable/et_back_color"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rowbg"
+                android:layout_marginHorizontal="10dp"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:background="@drawable/et_back_color"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rowbg"
+                android:layout_marginHorizontal="10dp"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:background="@drawable/et_back_color"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rowbg"
+                android:layout_marginHorizontal="10dp"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/triangle"/>
+            </LinearLayout>
+
+            <EditText
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:background="@drawable/et_back_color"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

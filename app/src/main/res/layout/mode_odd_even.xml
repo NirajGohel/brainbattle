@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353244">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100sp"
+        android:textColor="#fff"
+        android:id="@+id/txt"
+        android:layout_centerInParent="true"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+<ImageView
+    android:layout_width="50dp"
+
+    android:layout_height="50dp"
+    android:id="@+id/img1"
+    android:src="@drawable/x_img1"
+    android:layout_marginHorizontal="3dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/img2"
+        android:src="@drawable/x_img1"
+        android:layout_marginHorizontal="3dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/img3"
+        android:src="@drawable/x_img1"
+        android:layout_marginHorizontal="3dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="odd"
+            android:id="@+id/btnodd"
+            android:layout_margin="3dp"
+            android:background="#3edf91"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btneven"
+            android:text="EVEN"
+            android:layout_margin="3dp"
+            android:background="#3edf91"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friends"
+        android:fontFamily="@font/gamefont_1"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="20dp"/>
+
+    <view class="android.support.v7.app.AlertController$RecycleListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </view>
+</LinearLayout>

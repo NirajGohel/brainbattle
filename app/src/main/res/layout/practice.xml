@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE MODE"
+        android:fontFamily="@font/gamefont_1"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_num"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:text="numbers"
+            android:fontFamily="@font/gamefont_1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_border"/>
+
+        <Button
+            android:id="@+id/btn_odd_even"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:text="odd / even"
+            android:fontFamily="@font/gamefont_1"
+            android:layout_weight="1"
+            android:background="@drawable/btn_border"
+            android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn_equ"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:text="Equation"
+                android:fontFamily="@font/gamefont_1"
+                android:layout_weight="1"
+                android:background="@drawable/btn_border"/>
+
+            <Button
+                android:id="@+id/btn_shape"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:text="shape"
+                android:fontFamily="@font/gamefont_1"
+                android:layout_weight="1"
+                android:background="@drawable/btn_border"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

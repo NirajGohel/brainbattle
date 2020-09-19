@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/rounded"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="23sp"
+        android:textColor="#fff"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/txt_srno"/>
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_toEndOf="@id/txt_srno"
+        android:id="@+id/img_plyr"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"/>-->
+
+    <FrameLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/txt_srno"
+        android:layout_marginVertical="5dp">
+
+        <com.facebook.login.widget.ProfilePictureView
+            android:id="@+id/led_ProfilePicture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/topbar"/>
+
+        <ImageView
+            android:id="@+id/android"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/led_subtracted_circle"
+            android:contentDescription="@null" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/l1"
+        android:text="Player 1"
+        android:textColor="#fff"
+        android:textSize="23sp"
+        android:id="@+id/txt_plyr"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1250"
+        android:textSize="23sp"
+        android:textColor="#fff"
+        android:id="@+id/txt_trophy"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/trophy3"
+        android:id="@+id/img_trophy"
+        android:layout_marginRight="3dp"
+        android:layout_toStartOf="@id/txt_trophy"
+        android:layout_centerVertical="true"
+        />
+</RelativeLayout>

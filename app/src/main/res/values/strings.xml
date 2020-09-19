@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Brain Battle 3</string>
+    <!--<string name="facebook_app_id">582929605518949</string>
+    <string name="fb_login_protocol_scheme">fb582929605518949</string>-->
+    <string name="facebook_app_id">386919352139979</string>
+    <string name="fb_login_protocol_scheme">fb386919352139979</string>
+</resources>
